@@ -1,0 +1,8 @@
+{
+  "name": "ETS MARCUS APP IDENTIFICATION",
+  "description": "Industrial piping equipment identifier using Gemini Vision and Text-to-Speech.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

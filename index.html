@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>ETS MARCUS APP IDENTIFICATION</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              industrial: {
+                900: '#1a1a1a', // Anthracite deep
+                800: '#2d2d2d', // Anthracite light
+                orange: '#FF9500', // Safety Orange
+              }
+            },
+            fontFamily: {
+              sans: ['Roboto', 'Inter', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #1a1a1a;
+        color: white;
+        overscroll-behavior-y: none; /* Prevent pull-to-refresh on mobile */
+      }
+      /* Hide scrollbar for cleaner mobile look */
+      ::-webkit-scrollbar {
+        width: 0px;
+        background: transparent;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "zustand/": "https://aistudiocdn.com/zustand@^5.0.9/",
+    "zustand": "https://aistudiocdn.com/zustand@^5.0.9",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.10.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.31.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
